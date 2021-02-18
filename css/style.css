@@ -4,6 +4,10 @@
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
 
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Slab:wght@300&family=Oswald&family=Roboto&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -22,8 +26,8 @@ use the fonts in other ways in the font hierarchy etc. */
   --color-6: #da5d50;
   --color-7: #e87cd1;
 
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
+  --primary-font: "Amatic SC", cursive;
+  --secondary-font: "Josefin Slab", serif;
   --main-text-color: #000;
 
   --white-space: 1rem;
@@ -68,7 +72,7 @@ footer {
 
 .full-width {
   background: var(--bg-color);
-  color: white;
+  color: #da5d50;
   width: 100%;
 }
 
@@ -78,7 +82,7 @@ footer {
   letter-spacing: -2px;
   padding-right: 0.75em;
   font-weight: bold;
-  color: white;
+  color: #da5d50;
 }
 
 .header-wrapper h2 {
@@ -160,19 +164,22 @@ ul li:last-child {
 }
 
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/lime.jpg) top left repeat;
 }
 
 .texture-swatch-2 {
-  background: url(../img/subtle_grunge.png) top left repeat;
+  background: url(../img/tortilla.jpg) top left repeat;
+  background-size: 150%;
 }
 
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/lime.jpg) top left repeat;
+  background-size: 370%;
 }
 
 .texture-swatch-3 {
-  background: url(../img/white_paperboard.png) top left repeat;
+  background: url(../img/lyno_taco.jpg) top left repeat;
+  background-size: 200%;
 }
 
 .images ul {
