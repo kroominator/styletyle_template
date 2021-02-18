@@ -14,11 +14,13 @@ use the fonts in other ways in the font hierarchy etc. */
 
 /* change these */
 :root {
-  --bg-color: red;
-  --link-color: green;
-  --link-hover-color: blue;
-  --color-4: hotpink;
-  --color-5: rebeccapurple;
+  --bg-color: #f8efe0;
+  --link-color: #f7d544;
+  --link-hover-color: #a6b03a;
+  --color-4: #f8c000;
+  /* --color-5: #a6b03a; */
+  --color-6: #da5d50;
+  --color-7: #e87cd1;
 
   --primary-font: "Open Sans", sans-serif;
   --secondary-font: "Droid Serif", serif;
@@ -35,7 +37,7 @@ a {
 }
 button:hover {
   background-color: var(--link-hover-color);
-  transform: scale(3) rotate(40deg);
+  transform: scale(1.1);
 }
 
 button:active {
@@ -141,8 +143,14 @@ ul li:last-child {
   background-color: var(--color-4);
 }
 
-.color-swatch-5 {
+/* .color-swatch-5 {
   background-color: var(--color-5);
+} */
+.color-swatch-6 {
+  background-color: var(--color-6);
+}
+.color-swatch-7 {
+  background-color: var(--color-7);
 }
 
 .textures li {
@@ -195,7 +203,7 @@ button {
 }
 
 .secondary-button {
-  background: var(--color-5);
+  background: var(--color-4);
 }
 
 button:focus,
